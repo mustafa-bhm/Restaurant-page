@@ -4,9 +4,9 @@ const home = (content) => {
   homeSection.innerHTML = `
   <section id="Home" class="home">
   <div class="home-intro">
-    <h2>Restaurant name</h2>
-    <p>presentation paragraph</p>
-    <button>Check our menu</button>
+    <h2>Welcome to Olive Leaf Restaurent </h2>
+
+    <button class ="nav home-btn">Menu</button>
   </div>
  <img class="home-image" src="./assets/home-image.jpg" alt="" />
 

@@ -3,12 +3,12 @@ const navBar = (content) => {
 
   navBarSection.innerHTML = `
   <section class="navbar">
-        <a href="">Logo</a>
-        <div class=" navbar-right-side">
-          <a   class= "nav home-nav">Home</a>
-          <a  class ="nav menu-nav">Menu</a>
-          <a  id="contact-nav" class="nav ">Contact</a>
-        </div>
+        <div> <i class="fa-solid fa-utensils"></i> </div>
+        <ul class=" navbar-right-side">
+          <li   class= "nav home-nav">Home</li>
+          <li  class ="nav menu-nav">Menu</li>
+          <li  id="contact-nav" class="nav ">Contact</li>
+        </ul>
       </section>
   `;
   content.appendChild(navBarSection);

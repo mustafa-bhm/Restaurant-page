@@ -2,6 +2,7 @@ const menu = (content) => {
   let menuSection = document.createElement("section");
   menuSection.innerHTML = `
   <section id="Menu" class="menu hidden">
+        <h2> Menu </h2>
         <div class="menu-container">
           <div class="menu-card">
             <h3>Creamy Mashroom Soup</h3>
