@@ -10,8 +10,9 @@ const home = (content) => {
   </div>
  <img class="home-image" src="./assets/home-image.jpg" alt="" />
 
-</section>
 
+ <div class="footer">Made by Mustafa 2022 , for The Odin Project</div>
+ </section>
   `;
   content.appendChild(homeSection);
 };

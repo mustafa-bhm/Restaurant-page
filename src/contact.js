@@ -62,6 +62,7 @@ const contact = (content) => {
       </div>
     </div>
   </div>
+  <div class="footer">Made by Mustafa 2022 , for The Odin Project</div>
 </section>
 
   `;
